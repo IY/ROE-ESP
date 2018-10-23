@@ -25,7 +25,7 @@ int Height = 600;
 
 //const MARGINS Margin = { 0, 0, Width, Height };
 
-char lWindowName[256] = "Squarew00t ROE ESP";
+char lWindowName[256] = "RATZ ROE ESP";
 HWND hWnd;
 
 char tWindowName[256] = "Ring of Elysium"; /* tWindowName ? Target Window Name */
