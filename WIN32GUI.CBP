@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="win32gui" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/win32gui" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/Microsoft DirectX SDK (November 2008)/Lib/x86/d3d9.lib" />
+					<Add library="C:/Program Files (x86)/Microsoft DirectX SDK (November 2008)/Lib/x86/d3dx9.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/win32gui" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add library="C:/Program Files (x86)/Microsoft DirectX SDK (November 2008)/Lib/x86/d3d9.lib" />
+					<Add library="C:/Program Files (x86)/Microsoft DirectX SDK (November 2008)/Lib/x86/d3dx9.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="CDRIECTX.CPP" />
+		<Unit filename="CHACK.CPP" />
+		<Unit filename="CMEMORY.CPP" />
+		<Unit filename="CMENU.CPP" />
+		<Unit filename="CMENU.H" />
+		<Unit filename="HHACK.H" />
+		<Unit filename="HMAIN.H" />
+		<Unit filename="HMEMORY.H" />
+		<Unit filename="MAIN.CPP" />
+		<Unit filename="cDrawings.cpp" />
+		<Unit filename="hDirectX.h" />
+		<Unit filename="hDrawings.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

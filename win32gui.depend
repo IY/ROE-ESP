@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1538948073 source:c:\users\max\documents\dxproject\win32gui\main.cpp
+	<tchar.h>
+	<windows.h>
+	"d3d9.h"
+	"d3dx9.h"
+	"hDirectX.h"
+	"cMenu.h"
+	"hMemory.h"
+
+1538734847 c:\users\max\documents\dxproject\win32gui\hdirectx.h
+	"hMain.h"
+	"hDrawings.h"
+	<Windows.h>
+	<iostream>
+	<d3d9.h>
+	<d3dx9.h>
+
+1538860108 c:\users\max\documents\dxproject\win32gui\hmain.h
+	"hDirectX.h"
+	<Windows.h>
+	<iostream>
+	<d3d9.h>
+	<d3dx9.h>
+
+1538743770 c:\users\max\documents\dxproject\win32gui\hdrawings.h
+	"hDirectX.h"
+	<d3dx9.h>
+	<d3d9.h>
+
+1538859710 source:c:\users\max\documents\dxproject\win32gui\cdriectx.cpp
+	"hDirectX.h"
+	"cMenu.h"
+
+1538743672 source:c:\users\max\documents\dxproject\win32gui\cdrawings.cpp
+	"hDrawings.h"
+
+1538753721 source:c:\users\max\documents\dxproject\win32gui\cmenu.cpp
+	<windows.h>
+	"hDrawings.h"
+	"hDirectX.h"
+	"cMenu.h"
+
+1538753035 c:\users\max\documents\dxproject\win32gui\cmenu.h
+
+1538837434 source:c:\users\max\documents\dxproject\win32gui\cmemory.cpp
+	<Windows.h>
+	<iostream>
+	<tlhelp32.h>
+	<WinBase.h>
+
+1538837620 c:\users\max\documents\dxproject\win32gui\hmemory.h
+	<Windows.h>
+
+1538839061 source:c:\users\max\documents\dxproject\win32gui\chack.cpp
+
+1538988824 source:e:\win32gui\cdrawings.cpp
+	"hDrawings.h"
+
+1538988824 e:\win32gui\hdrawings.h
+	"hDirectX.h"
+	<d3dx9.h>
+	<d3d9.h>
+
+1538988824 e:\win32gui\hdirectx.h
+	"hMain.h"
+	"hDrawings.h"
+	<Windows.h>
+	<iostream>
+	<d3d9.h>
+	<d3dx9.h>
+
+1539023836 e:\win32gui\hmain.h
+	"hDirectX.h"
+	<Windows.h>
+	<iostream>
+	<d3d9.h>
+	<d3dx9.h>
+
+1539023398 source:e:\win32gui\cdriectx.cpp
+	"hDirectX.h"
+	"cMenu.h"
+	"hHack.h"
+
+1538992754 e:\win32gui\cmenu.h
+
+1539023932 source:e:\win32gui\chack.cpp
+	<tchar.h>
+	<windows.h>
+	<list>
+	"d3d9.h"
+	"d3dx9.h"
+	"hDirectX.h"
+	"cMenu.h"
+	"hMemory.h"
+
+1539712656 source:e:\win32gui\cmemory.cpp
+	<Windows.h>
+	<iostream>
+	<tlhelp32.h>
+	<WinBase.h>
+
+1539104424 source:e:\win32gui\cmenu.cpp
+	<windows.h>
+	"hDrawings.h"
+	"hDirectX.h"
+	"cMenu.h"
+
+1539713562 source:e:\win32gui\main.cpp
+	<tchar.h>
+	<windows.h>
+	<list>
+	"d3d9.h"
+	"d3dx9.h"
+	"hDirectX.h"
+	"cMenu.h"
+	"hMemory.h"
+
+1539712666 e:\win32gui\hmemory.h
+	<Windows.h>
+
+1539023806 e:\win32gui\hhack.h
+
