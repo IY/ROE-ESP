@@ -47,7 +47,7 @@ int Render()
 	    drawMenu();
 
 		//text with shadow
-		DrawShadowStringCentered("Squarew00t ROE ESP", Width / 2, 5, 145, 232, 188, 1, 1, 1, pFontSmall);
+		DrawShadowStringCentered("RATZ ROE ESP", Width / 2, 5, 145, 232, 188, 1, 1, 1, pFontSmall);
 
 		drawCheat();
 
